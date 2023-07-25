@@ -40,7 +40,7 @@ public class ManageBrowser {
 
     public void closeBrowser(){
         if (driver!= null){
-           // driver.quit();
+        driver.quit();
         }
     }
 
