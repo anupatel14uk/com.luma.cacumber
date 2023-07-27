@@ -50,6 +50,8 @@ public class GearPage extends Utility {
     WebElement productFinalPriceText;
 
     public void mouseHoverToGearMenu() {
+
+
         mouseHoverToElement(gearMenu);
     }
 
@@ -98,6 +100,7 @@ public class GearPage extends Utility {
     }
 
     public String getFinalProductPrice(){
+
         return getTextFromElement(productFinalPriceText);
     }
 
